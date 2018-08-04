@@ -1,0 +1,12 @@
+<script type="text/x-handlebars-template">
+{{#navList}}
+{{#if isActive}}
+<li class="nav-item active">
+{{else}}
+<li class="nav-item">
+{{/if}}
+    <a class="link" href="{{href}}">{{desc}}</a>
+</li>
+
+{{/navList}} 
+</script>

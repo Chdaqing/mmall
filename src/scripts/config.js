@@ -1,0 +1,21 @@
+require.config({
+	  shim:{
+	       'jquery.ui.slider':['jquery']
+	       },
+	  paths:{
+	  	   'jquery':'./lib/jquery-1.10.2',
+	  	   'text':'./lib/text',
+	  	   'user-center_data':'./data/user-center_data',
+	  	   'jquery.ui.slider':'./app/unslider',
+	  	   'handlebars':'./handlebars',
+	  	   'product_data':'./data/product_data',  	  
+         'mm':'./app/mm',
+         'user-service':'./app/user-service',
+         'product-service':'./app/product-service',
+         'pagination':'./app/pagination',
+         'address-service':'./app/address-service',
+         'order-service':'./app/order-service',
+         'cities':'./app/cities',
+         'cart-service':'./app/cart-service'
+	       }
+})

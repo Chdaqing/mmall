@@ -1,0 +1,22 @@
+define({
+	   "orderItemVoList":[
+	         {
+	           productId:'0010010',
+	           productImage:'../image/floor/floor2-2.jpg',
+	           productName:'iphone',
+	           currentUnitPrice:'3000',
+	           quantity:'2',
+	           totalPrice:'6000'
+	         },
+	         {
+	           productId:'0010009',
+	           productImage:'../image/floor/floor2-3.jpg',
+	           productName:'ipad',
+	           currentUnitPrice:'4999',
+	           quantity:'1',
+	           totalPrice:'4999'
+	         }
+	   ],
+	   "productTotalPrice":"10999"
+	  
+})

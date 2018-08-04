@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="utf-8">
+       <meta http-equiv="x-ua-compatible" content="ie=edge">
+       <meta name="keywords" content="happymmall,电商">
+       <meta name="description" content="happymmall电商平台开发教程">
+        <title>user-login- happymmall电商平台</title>
+         <link href="../css/common/layout.css" rel="stylesheet" type="text/css">
+        <link href="../css/user-login/index.css" rel="stylesheet" type="text/css">
+        <link href="../css/common/nav-simple.css" rel="stylesheet" type="text/css">
+        <link href="../css/common/footer.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+       <div class="nav-simple">
+    <div class="w">
+        <a class="logo" href="./index.html">MMALL</a>
+    </div>
+</div>
+        <div class="page-wrap">
+            <div class="w">
+                <div class="user-con">
+                    <div class="user-title">用户登录</div>
+                    <div class="user-box">
+                        <div class="error-item">
+                            <i class="fa fa-minus-circle error-icon"></i>
+                            <p class="err-msg">Error</p>
+                        </div>
+                        <div class="user-item">
+                            <label class="user-label" for="">
+                                <i class="fa fa-user"></i>
+                            </label>
+                            <input class="user-content" id="username" placeholder="请输入用户名" autocomplete="off">
+                        </div>
+                        <div class="user-item">
+                            <label class="user-label" for="password">
+                                <i class="fa fa-lock"></i>
+                            </label>
+                            <input type="password" class="user-content" id="password" placeholder="请输入密码" autocomplete="off">
+                        </div>
+                        <a class="btn btn-submit" id="submit">登录</a>
+                        <div class="link-item">
+                            <a class="link" href="./user-pass-reset.html" target="_blank">忘记密码</a>
+                            <a class="link" href="./user-register.html" target="_blank">免费注册</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <div id="footer">
+       </div>
+      <script src="../scripts/lib/require.js" data-main="../scripts/user-login"></script>
+    </body>
+</html>
